@@ -5,39 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Contact - Terena Blasberg</title>
+    <title>Contact Me!</title>
 </head>
+
 <body>
-    <section>
-        <!-- This is the header with my name and nav tab  -->
-        <div class="me">
+    <!-- This is the header with my name and nav tab  -->
+    <div class="header_block clearfix">
+        <div class="name">
             <header>Terena Blasberg</header>
         </div>
 
-        <div>
-            <nav>
-                <a href="About">About</a>
-                <a href="Portfolio">Portfolio</a>
-                <a href="Contact.html">Contact</a>
-            </nav>
-        </div>
-    </section>
+        <ul>
+            <li><a id="about" href="About">About</a></li>
+            <li><a id="portfolio" href="Portfolio">Portfolio</a></li>
+            <li><a id="contact" href="Contact.html">Contact</a></li>
+        </ul>
+    </div>
 
-    <section>
-        <div>  
-            <h2>Contact</h2>
-        </div>     
+    <!-- This is the contact container -->
+    <div class="main_content clearfix"> 
+        <div class="content_block">
+            <div>
+                <h2 id="aboutme_header">Contact</h2>
+            </div>
 
-        <div>
-            <p>Name</p>
-            <form action="/action_page.php">
-                Name: <input type="text" name="FirstName" value="">
+            <form class="blank_fields" action="/action_page.php">
+                Name: <br>
+                <input type="text" name="FirstName" value="John Smith">
+             <br>
+             <br>
+             <form class="blank_fields" action="/action_page.php">
+                Email: <br>
+                <input type="email" name="FirstName" value="example@gmail.com">
             <br>
-            <p>Email</p>
             <br>
-            <p>Message</p>
+            <form class="blank_fields" id="message_box" action="/action_page.php">
+                Message: <br>
+                <input type="text" name="usrname">
+                <br>
+                <br>
+                <input id="submit" type="submit">   
         </div>
-    </section>
+    </div>
 
+    <!-- This is the footer with the Copyright icon -->
+    <footer class="footer"> Copyright ©</footer>
+
+    
 </body>
 </html>

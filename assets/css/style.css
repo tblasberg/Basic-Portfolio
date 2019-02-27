@@ -1,11 +1,10 @@
 .header_block{
     padding: 30px 275px 0px 275px;
-    border-bottom-color: #cccccc; 
     height: 150px;
-    background-color: white;
+    background-color: #ffffff;
     border-bottom: 3px;
     border-bottom-style: solid;
-    border-bottom-color: dimgray;
+    border-bottom-color: #cccccc;
 }
 
 .clearfix::after {
@@ -30,10 +29,10 @@
     clear: both;
 }
 
-img.resize{
+/* img.resize{
     width: 50%;
     height: auto;
-}
+} */
 
 
 .nav_me {
@@ -60,7 +59,7 @@ ul {
     margin-top: 60px;
     text-align: right;
     font-size: 20px;
-    color: #cccccc;
+    color: #777777;
     text-decoration: none; 
 }
 
@@ -70,7 +69,7 @@ ul {
     margin-top: 60px;
     font-size: 20px;
     text-align: right;
-    color: #cccccc;
+    color: #777777;
     text-decoration: none; 
 }
 
@@ -80,7 +79,7 @@ ul {
     margin-top: 60px;
     text-align: right;
     font-size: 20px;
-    color: #cccccc;
+    color: #777777;
     text-decoration: none; 
 
 }
@@ -95,31 +94,68 @@ ul {
 } */
 
 
-.middle_part{
+.main_content{
     width: 100%;
     height: 70%;
     position: absolute;
     clear: both;
     background-image: url("dynamic-style.png"); 
+    background-color: #ffffff;
     padding: 10px 20px 10px 20px;
 }
 
-/* Couldn't centralize this block with a 960px width and set a border to determine the container*/
-.about_me{
+#aboutme_header{
+    color: #4aaaa5;
+    font-size: 35px;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Couldn't centralize this block with a 960px width */
+.content_block{
     /* clear: both; */
-    border-style: dashed;
-    border-color: cornflowerblue;
-    margin: 30px 275px 0px 275px;
+    border-style: solid;
+    border-color: #dddddd;
+    margin: 80px 275px 0px 275px;
+    padding: 25px 30px 25px 30px;
     width: 960px;
     height: 600px;
-    padding: 50px;
     text-align: center;
     word-wrap: normal;
     margin: 0 auto; 
-    background-color: white;
-
+    background-color: #ffffff; 
+    color: #777777; 
 }
 
+
+/* Specific element on contact.html */
+.blank_fields{
+    text-align: left;
+    font-size: 20px;
+    width: 700px;  
+    /* I can't set the width of the texts boxes */
+}
+
+/* Specific element on contact.html */
+#message_box{
+   /* I tried set the width of the message box */
+}
+
+
+/* Specific element on contact.html */
+#submit{
+    border-color: rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186);
+    border-style: solid;
+    border-width: 1px;
+    padding: 1px 7px 2px;
+    background-color:  #4aaaa5;
+    width: 80px;
+    height: 30px;
+    color: white; 
+}
+
+
+/* Specific element on index.html */
 p{
     font-family: Arial, Helvetica, sans-serif;
     clear: both;
@@ -136,6 +172,6 @@ p{
     bottom: 0;
     width: 100%;
     height: 60px;
-    background-color: darkgray;
-    color: white;
+    background-color: #666666;
+    color: #777777;
 }
